@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: "Roboto Mono", sans-serif;
+}
+
+#cabecalho {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: rgb(47, 193, 140);
+  color: #212527;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+}
+
+#cabecalho h1 {
+  margin: 12px auto 24px;
+  text-align: center;
+  font-size: 36px;
+}
+
+#cabecalho h1 {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+#cabecalho a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px;
+  border-radius: 6px;
+  color: #212527;
+  transition: 0.4s ease-in;
+}
+
+#cabecalho a:hover {
+  background-color: rgb(253, 251, 251);
+  color: rgb(47, 193, 140);
+}
+
+#minha_foto {
+  width: 300px;
+  display: block;
+  margin: 180px 40px 40px 40px;
+  border-radius: 6px;
+}
+
+table {
+  width: 1250px;
+  margin: 40px auto;
+  background-color: rgb(141, 194, 157);
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px rgba(30, 60, 30, 0.5);
+}
+
+table th {
+  font-size: 22px;
+  color: #212527;
+  text-align: left;
+  padding-right: 32px;
+}
+
+table td {
+  padding: 20px;
+}
+
+table td ol {
+  margin-left: 20px;
+}
+
+table td ul {
+  margin-left: 40px;
+}
+
+table td li {
+  line-height: 24px;
+}
+
+#experiencia {
+  width: 90vw;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.lado-esquerdo {
+  width: 80%;
+  float: center;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.lado-direito {
+  width: 90%;
+  float: center;
+  padding: 20px;
+  border: 3px double rgb(47, 193, 140);
+  border-radius: 6px;
+  margin-left: 40px;
+}
+
+footer {
+  display: inline-block;
+  background-color: rgb(28, 143, 101);
+  margin-top: 20px;
+  width: 100vw;
+  padding: 20px;
+  color: rgb(253, 251, 251);
+}
+
+footer a {
+  color: rgb(253, 251, 251);
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
